@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Информация указанная здесь, будет отображаться в сниппете (описании сайта в поисковике)">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>ДЗ 9</title>
+    <style>
+        @font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+            url('fonts/Montserrat-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('fonts/Montserrat-SemiBold.woff2') format('woff2'),
+            url('fonts/Montserrat-SemiBold.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+            url('fonts/Montserrat-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+            url('fonts/Montserrat-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+            url('fonts/Montserrat-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="ico/apple_touch_icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="ico/favicon_32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="ico/favicon_16x16.png">
+	<link rel="shortcut icon" type="image/x-icon" href="ico/favicon.ico">
+	<link rel="canonical" href="https://www.site-rb.ru">
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <a href="#" class="logo">
+                <span class="none">Мастер окон</span>
+                <img src="img/logo.png" alt="Лого энергия дизель сервис">
+            </a>
+            <div class="adres">
+                <img src="img/adres.svg" alt="как добраться">г. Новосибирск ул. Дунаевского 16, 1 эт
+            </div>
+            <nav class="main-navigation"> 
+                
+                <ul class="main-navigation-block">
+                    <li><a href="#part1" class="main-navigation-item">Услуги</a></li>
+                    <li><a href="#part2" class="main-navigation-item">Ремонт</a></li>
+                    <li><a href="#part3" class="main-navigation-item">Прайс</a></li>
+                    <li><a href="#part4" class="main-navigation-item">О нас</a></li>
+                    <li><a href="#part5" class="main-navigation-item">Контакты</a></li>
+                </ul>   
+            </nav>
+            <div class="phone-link">
+                <a href="tel:+79635372542" class="phone"><img src="img/carbon_phone-filled.svg" alt="телефон"><p class="phone-text">+7 963 537 25 42</p></a>
+            </div>
+            <div class="menu-mobile"></div>
+        </div>
+    </header>
+    <main>
+        <div class="arrow-up">
+            <a href="#toTop" class="idTop"><img src="img/arrow-up.svg" alt="кнопка"></a>
+        </div>
+        <div class="panel">
+            <a href="tel:+70000000000" class="panel-1"><img src="img/phone.svg" alt="телефон"></a>
+            <a href="#" class="panel-1"><img src="img/calc.svg" alt="рассчёт стоимости"></a>
+            <a href="https://wa.me/79223332211" class="panel-1"><img src="img/wa.svg" alt="ватсап"></a>
+        </div>
+        <div class="btn-down">
+            <a href="#" id="scroll_bottom" class="arrow-down"><img src="img/Arrow-down.svg" alt="вниз"></a>
+        </div>
+        <div class="wrapper-1">
+            <div class="heading-1">ДИЗЕЛЬ СЕРВИС</div>
+            <div class="slider">
+                <div class="slider-block" id="about">
+                    <div>
+                        <div class="slider-item-1">
+                            <img src="img/slider-1.png" alt="РЕМОНТ ДИЗЕЛЬНЫХ ДВИГАТЕЛЕЙ ФОРСУНОК И ТОПЛИВНОЙ СИСТЕМЫ">
+                            <div class="img-block-1">
+                                <p class="sip-1">РЕМОНТ ДИЗЕЛЬНЫХ<br> ДВИГАТЕЛЕЙ</p>
+                                <p class="sip-2">ФОРСУНОК И ТОПЛИВНОЙ СИСТЕМЫ</p>
+                                <div class="btn-slider">Узнать подробнее</div>
+                                <div class="btn-left"><img src="img/btn-left.svg" alt="кнопка налево"></div>
+                                <div class="btn-right"><img src="img/btn-right.svg" alt="кнопка направо"></div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-item-1">
+                            <img src="img/slider-1.png" alt="РЕМОНТ ДИЗЕЛЬНЫХ ДВИГАТЕЛЕЙ ФОРСУНОК И ТОПЛИВНОЙ СИСТЕМЫ">
+                            <div class="img-block-1">
+                                <p class="sip-1">РЕМОНТ ДИЗЕЛЬНЫХ<br> ДВИГАТЕЛЕЙ</p>
+                                <p class="sip-2">ФОРСУНОК И ТОПЛИВНОЙ СИСТЕМЫ</p>
+                                <div class="btn-slider">Узнать подробнее</div>
+                                <div class="btn-left"><img src="img/btn-left.svg" alt="кнопка налево"></div>
+                                <div class="btn-right"><img src="img/btn-right.svg" alt="кнопка направо"></div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-item-1">
+                            <img src="img/slider-1.png" alt="РЕМОНТ ДИЗЕЛЬНЫХ ДВИГАТЕЛЕЙ ФОРСУНОК И ТОПЛИВНОЙ СИСТЕМЫ">
+                            <div class="img-block-1">
+                                <p class="sip-1">РЕМОНТ ДИЗЕЛЬНЫХ<br> ДВИГАТЕЛЕЙ</p>
+                                <p class="sip-2">ФОРСУНОК И ТОПЛИВНОЙ СИСТЕМЫ</p>
+                                <div class="btn-slider">Узнать подробнее</div>
+                                <div class="btn-left"><img src="img/btn-left.svg" alt="кнопка налево"></div>
+                                <div class="btn-right"><img src="img/btn-right.svg" alt="кнопка направо"></div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-item-1">
+                            <img src="img/slider-1.png" alt="РЕМОНТ ДИЗЕЛЬНЫХ ДВИГАТЕЛЕЙ ФОРСУНОК И ТОПЛИВНОЙ СИСТЕМЫ">
+                            <div class="img-block-1">
+                                <p class="sip-1">РЕМОНТ ДИЗЕЛЬНЫХ<br> ДВИГАТЕЛЕЙ</p>
+                                <p class="sip-2">ФОРСУНОК И ТОПЛИВНОЙ СИСТЕМЫ</p>
+                                <div class="btn-slider">Узнать подробнее</div>
+                                <div class="btn-left"><img src="img/btn-left.svg" alt="кнопка налево"></div>
+                                <div class="btn-right"><img src="img/btn-right.svg" alt="кнопка направо"></div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                <div class="wrapper-2">
+                    <div id="part1" class="block-2">
+                        <div class="h2">УСЛУГИ</div>
+                        <ul class="serv">
+                            <li class="serv-item">
+                                <div class="serv-text">
+                                    <span>01</span>
+                                    <p>Снятие-установка<br> топливной аппаратуры</p>
+                                </div>
+                                <img src="img/serv-1.png" alt="Снятие-установка топливной аппаратуры">
+                            </li>
+                            <li class="serv-item">
+                                <div class="serv-text">
+                                    <span>02</span>
+                                    <p>Проверка на стенде</p>
+                                </div>
+                                <img src="img/serv-2.png" alt="Проверка на стенде">
+                            </li>
+                            <li class="serv-item">
+                                <div class="serv-text">
+                                    <span>03</span>
+                                    <p>Разборка и дефектовка</p>
+                                </div>
+                                <img src="img/serv-3.png" alt="Разборка и дефектовка">
+                            </li>
+                            <li class="serv-item">
+                                <div class="serv-text">
+                                    <span>04</span>
+                                    <p>Разборка, дефектовка и сборка</p>
+                                </div>
+                                <img src="img/serv-4.png" alt="Разборка, дефектовка и сборка">
+                            </li>
+                        </ul>
+                        <div class="serv-btn">Узнать подробнее</div>
+                    </div>
+                </div>
+            <div class="wrapper-3">
+                <div class="heading-2">ДИЗЕЛЬ СЕРВИС</div>
+                <div id="part2" class="block-3">
+                    <div class="h2">ПРЕИМУЩЕСТВА</div>
+                    <div class="advantages-container">
+                        <ul class="advantages">
+                            <li class="advantages-item">
+                                <span class="advantages-number">01</span>
+                                <div class="advantages-desc">
+                                    <div class="h3">Квалификация и опыт</div>
+                                    <p>Квалифицированные работники, которые <br>
+                                    прошли обучение и обладают<br>
+                                    уникальным опытом </p>
+                                </div>
+                            </li>
+                            <li class="advantages-item">
+                                <span class="advantages-number">02</span>
+                                <div class="advantages-desc">
+                                    <div class="h3">Гарантия</div>
+                                    <p>Предоставляется гарантия на<br> 
+                                    произведенные работы</p>
+                                </div>
+                            </li>
+                            <li class="advantages-item">
+                                <span class="advantages-number">03</span>
+                                <div class="advantages-desc">
+                                    <div class="h3">Точно в срок</div>
+                                    <p>Выдача автомобилей происходит<br>
+                                    точно в срок</p>
+                                </div>
+                            </li>
+                        </ul>        
+                        <ul class="advantages">
+                            <li class="advantages-item">
+                                <span class="advantages-number">04</span>
+                                <div class="advantages-desc">
+                                <div class="h3">Профессиональное оборудование</div>
+                                <p>Современное оборудование, богатый<br>
+                                    арсенал стандартных и специальных<br>
+                                    инструментов</p>
+                                </div>
+                            </li>
+                            <li class="advantages-item">
+                                <span class="advantages-number">05</span>
+                                <div class="advantages-desc">
+                                <div class="h3">Выдача автомобиля вовремя</div>
+                                <p>Автовладельцу передают машину точно в<br>
+                                    указанный опеератором срок</p>
+                                </div>
+                            </li>
+                            <li class="advantages-item">
+                                <span class="advantages-number">06</span>
+                                <div class="advantages-desc">
+                                <div class="h3">Ожидание с комфортом</div>
+                                <p>Удобные диваны, бесплатный Wi-Fi, чай и<br>
+                                    кофе, телевизор, камеры наблюдения</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="block-rec">
+                <div class="rec">
+                    <div class="rec-h2">Экспресс запись на прием</div>
+                    <div class="rec-text">Оставьте свои контактные данные и наш специалист с Вами свяжется в ближайшее время</div>
+                    <div class="rec-data">
+                        <div class="rec-form_name">Введите ваше имя
+                            <input class="rec-input__name" type="name" id="rec_name">
+                            <label class="rec-name">Ваше имя</label>
+                        </div>
+                        <div class="rec-form_number">Введите ваш телефон
+                            <input class="rec-input__number" type="number" id="rec_number">
+                            <label class="rec-number">Ваш телефон</label>
+                        </div>
+                        <div class="rec-form_time rec-select__time">Выберите время
+                            <div class="day-time">
+                                <div class="rec-select__data">
+                                    <a href="javascript:void()" class="rec-select__link">Пн</a>
+                                    <div class="rec-dayweek">
+                                        <a href="javascript:void()" class="dayweek-link">Пн</a>
+                                        <a href="javascript:void()" class="dayweek-link">Вт</a>
+                                        <a href="javascript:void()" class="dayweek-link">Ср</a>
+                                        <a href="javascript:void()" class="dayweek-link">Чт</a>
+                                        <a href="javascript:void()" class="dayweek-link">Пт</a>
+                                    </div>
+                                </div>
+                                <input class="rec-input__time" type="text" id="rec_time">
+                                <label class="rec-time">Время</label>
+                            </div>
+                        </div>
+                        <input class="rec-input__btn" type="submit" name="Записаться" value="Записаться" onclick="fosPopupSend('Записаться','M1');">
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-4">
+                <div id="part4" class="block-4">
+                    <div class="h2">О КОМПАНИИ</div>
+                    <p class="desc-1">Компания "Энергия Дизель-Сервис" находится на рынке услуг уже более 5-ти лет. За это время удалось набрать отличную команду высококвалифицированных специалистов, обладающих высоким уровнем практических и теоритических знаний.</p>
+                    <p class="desc-2"> А так же, значительно расширить спектр предлагаемых услуг в соответсвии с мировыми стандартами качества.</p>
+                    <video height="530" width="1441" poster="img/video.jpg"></video>    
+                    <div class="btn-company">Узнать больше</div>   
+                </div>
+            </div>
+            
+            <div class="block-partners">
+                <div class="heading-3">ДИЗЕЛЬ СЕРВИС</div>
+                <div class="partners">
+                    <div class="partners-h2">Партнеры</div>
+                    <div class="partners-logo">
+                        <div class="partners-size">
+                            <a href="javascript:void()" class="bosch"></a>
+                        </div>
+                        <div class="partners-size">
+                            <a href="javascript:void()" class="delphi"></a>
+                        </div>
+                        <div class="partners-size">
+                            <a href="javascript:void()" class="denso"></a>
+                        </div>
+                        <a href="javascript:void()" class="partners-become">Стать партнером</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block-certificates">
+                <div class="certificates">
+                    <div class="certificates-h2">Сертификаты</div>
+                    <div class="certificates-blocks">
+                        <div class="certificate">
+                            <a href="javascript:void()" class="cert-pic cert-one">
+                                <div class="cert-pic__filter"></div>
+                            </a>
+                        </div>
+                        <div class="certificate">
+                            <a href="javascript:void()" class="cert-pic cert-two">
+                                <div class="cert-pic__filter"></div>
+                            </a>
+                        </div>
+                        <div class="certificate">
+                            <a href="javascript:void()" class="cert-pic cert-three">
+                                <div class="cert-pic__filter"></div>
+                            </a>
+                        </div>
+                        <div class="certificate">
+                            <a href="javascript:void()" class="cert-pic cert-four">
+                                <div class="cert-pic__filter"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cert-one__size">
+                    <div class="cert-one__pic">
+                        <div class="cert-pic__close"></div>
+                    </div>
+                </div>
+                <div class="cert-two__size">
+                    <div class="cert-two__pic">
+                        <div class="cert-pic__close"></div>
+                    </div>
+                </div>
+                <div class="cert-three__size">
+                    <div class="cert-three__pic">
+                        <div class="cert-pic__close"></div>
+                    </div>
+                </div>
+                <div class="cert-four__size">
+                    <div class="cert-four__pic">
+                        <div class="cert-pic__close"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="block-quest">
+                <div class="quest">
+                    <div class="quest-h2">Остались вопросы?</div>
+                    <div class="quest-text">Закажите обратный звонок, заполнив форму ниже</div>
+                    <div class="rec-data">
+                        <div class="quest-form_name">Введите ваше имя
+                            <input class="quest-input__name" type="text">
+                            <label class="quest-name">Ваше имя</label>
+                        </div>
+                        <div class="quest-form_number">Введите ваш телефон
+                            <input class="quest-input__number" type="number">
+                            <label class="quest-number">Ваш телефон</label>
+                        </div>
+                        <div class="quest-form_time rec-select__time">Выберите время
+                            <div class="day-time">
+                                <div class="quest-select__data">
+                                    <a href="javascript:void()" class="quest-select__link">Пн</a>
+                                    <div class="quest-dayweek">
+                                        <a href="javascript:void()" class="dayweek-link">Пн</a>
+                                        <a href="javascript:void()" class="dayweek-link">Вт</a>
+                                        <a href="javascript:void()" class="dayweek-link">Ср</a>
+                                        <a href="javascript:void()" class="dayweek-link">Чт</a>
+                                        <a href="javascript:void()" class="dayweek-link">Пт</a>
+                                    </div>
+                                </div>
+                                <input class="quest-input__time" type="text">
+                                <label class="quest-time">Время</label>
+                            </div>
+                        </div>
+                        <input class="quest-input__btn" type="submit" name="Получить консультацию" value="Получить консультацию">
+                    </div>
+                </div>
+            </div>
+            <div class="block-contacts">
+                <div class="contacts">
+                    <div>
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa0a4fc0f20a23180de19331035b809b6c51d548cb533db05be3c622c1bfd6e2d&amp;width=722&amp;height=683&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </div>
+                    <div id="part5" class="contacts-info">
+                        <div class="contacts-h2">Контакты</div>
+                        <div class="contacts-data">
+                        	<div>Адрес:  <b>г. Новосибирск, ул. Дуноевского 16, 1 эт</b></div>
+                        	<div>Номер телефона:  <b>+7 (383) 281-40-00</b></div>
+                        	<div>Время работы: <b>Пн-Пт: 9:00-18:00</b></div>
+                        </div>
+                        <div class="route">
+                        	<a class="route-icon">
+                        		<span class="none">Маршрут</span>
+                        	</a>
+                        	<a href="javascript:void()" class="open-map">Проложить маршрут</a>
+                    	</div>
+                        <a href="javascript:void()" class="btn-fos">Связаться</a>
+                    </div>
+                </div>
+            </div>
+        
+        <footer class="block-footer">
+        	<div class="footer">
+	        	<div class="footer-one">
+	        		<div class="social">
+	        			<a href="javascript:void()" class="vk"></a>
+	        			<a href="javascript:void()" class="inst"></a>
+	        			<a href="javascript:void()" class="fb"></a>
+	        		</div>
+	        		<div class="copyright">© 2020 Дизель-Сервис | Все права защищены</div>
+	        		<a href="javascript:void()" class="footer-btn">Связаться</a>
+	        	</div>
+	        	<div class="hr"></div>
+	        	<div class="footer-two">
+	        		<a href="" class="logo-ir"></a>
+	        		<div class="polit">Отправляя любую форму на сайте, вы соглашаетесь с <a href="javascript:void()">политикой<br> конфиденциальности</a> данного сайта.</div>
+	        	</div>
+        	</div>
+        </footer> 
+<!--      	<div class="fos">
+            <div class="fos-block">
+                <a href="javascript:void()" class="fos-close"><span class="none">Закрыть ФОС</span></a>
+                <div class="fos-title">Название ФОС</div>
+                <form>
+                    <div>
+                        <input class="input-name" type="text" required="">
+                        <label class="fos-name">Ваше имя</label>
+                    </div>
+                    <div>
+                        <input class="input-number" type="number" required="">
+                        <label class="fos-number">Номер телефона</label>
+                    </div>
+                    <div>
+                        <textarea class="input-message" required=""></textarea>
+                        <label class="fos-message">Сообщение</label>
+                    </div>
+                    <div class="fos-info">
+                        <label class="fos-checkbox">
+                            <input type="checkbox">
+                            <span>Отправляя любую форму на сайте, вы<br>соглашаетесь с <a class="fos-polit" href="javascript:void()"><span class="none">Политика конфиденциальности</span>политикой конфиденциальности</a> данного сайта.</span>
+                        </label>
+                    </div>
+                    <input class="input-btn" type="submit" name="Отправить" value="Отправить">
+                </form>
+            </div>
+        </div>
+        <a href="javascript:void()" class="btn-up" id="btn-up">
+            <span class="none">Кнопка навверх</span>
+        </a> -->
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+              $('#about').slick({
+		    infinite: true,
+		    slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: $('.btn-left'),
+            nextArrow: $('.btn-right'),
+		});
+                
+    </script>
+</body>
+</html>
