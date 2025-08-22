@@ -26,7 +26,4 @@ Open index.html locally in a browser.
 - Ensuring readability and usability across devices  
 - Delivering under evaluation conditions (test task setting)
 
-🔜 Next steps  
-- Add accessibility features (alt-text, aria-labels)  
-- Refactor CSS for maintainability (BEM or utility classes)  
-- Improve performance by optimizing assets
+
